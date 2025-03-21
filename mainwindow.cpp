@@ -59,6 +59,10 @@ void MainWindow::onButtonStartClicked()
 
         start = end + 1;
     }
+    ui->buttonStart->setEnabled(true);
+    ui->buttonStop->setEnabled(true);
+    ui->spinBox->setEnabled(true);
+    ui->horizontalSlider->setEnabled(true);
 }
 
 void MainWindow::onButtonStopClicked()
